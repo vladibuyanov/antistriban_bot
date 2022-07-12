@@ -2,8 +2,7 @@ import os
 from telebot import TeleBot
 
 bot = TeleBot(os.environ.get('TOKEN'))
-ID = 5155228261
-# ID = {'V/B': 542276549, 'V/R': 1325734, 'A/B': 220305114]
+ID = os.environ.get('ID')
 text = 'ДАННАЯ ХРЮКАНИНА СОЗДАНА И (ИЛИ) РАСПРОСТРАНЕНА ПОГАНЫМ ЖАЛОМ, ' \
        'НЕ ЗАКУСИВШИМ УДИЛА, И (ИЛИ) ВЫПОЛНЯЮЩИМ ФУНКЦИИ ШТРИБАНА.'
 
